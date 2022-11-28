@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrogCoin Oficial+</title>
+    <style>
+        button{
+            background-color:white;
+            color:orangered;
+            font-size:x-large;
+        }
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            color: orangered;
+        }
+        h2 {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            color: orangered;
+        }
+    </style>
+    <link rel="icon" type="imagem/png" href="Icone.png" />
+</head>
+<body>
+    <img style="margin-left: 150px;" src="img/FrogCoin.png"> 
+    <h2 style="text-align: center;color:orangered">FrogCoin Compra e venda</h2>
+    <p style="text-align: center;color:orangered">
+        FrogCoin é uma criptomoeda ja muito esperada e programada mas até hoje não lançou pois estava 
+        em fase teste mas 
+    </p>
+    <p style="text-align: center;color:orangered">
+        agora esta disponivel em algumas lojas e locais para comprar a FrogCoin, que pode ser usada 
+        para comprar algumas coisas mas tambem pode ser investimento.
+    </p>
+    <div style="text-align: center;">
+        <button type="button" onclick="Informação()">Comprar</button>
+        <div id="teste1"> </div>
+    </div>
+    
+
+    <script>
+        function Informação()
+        {
+            var teste1 = document.querySelector("#teste1");
+
+            teste1.innerHTML = "<h2>Informações para comprar</h2><p></p>";
+        }
+    </script>
+</body>
+</html>
